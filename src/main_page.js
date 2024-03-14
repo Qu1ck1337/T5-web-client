@@ -1,7 +1,6 @@
 
 import './main_page.css'
-import { Content, Heading } from './components/Styles';
-import bgimg from './images/background_img.png';
+// import { Content, Heading } from './components/Styles';
 import docs_png from './images/docs.png';
 import commands_png from './images/commands.png';
 import stats_png from './images/stats.png';
