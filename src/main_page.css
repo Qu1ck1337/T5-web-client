@@ -140,10 +140,22 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#desc_titles{
+    color: rgb(12, 177, 218);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#desc_text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 70;
+}
+
 #moderation {
     align-items: center;
     display: flex;
-    /* border: 1px solid darkgoldenrod; */
     border-radius: 5px;
     margin-left: 10px;
     margin-right: 10px;
