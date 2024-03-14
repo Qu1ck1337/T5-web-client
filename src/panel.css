@@ -1,0 +1,60 @@
+.panel{
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(70, 69, 69);
+    border-top: 1px solid rgb(70, 69, 69);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+#docs, #commands, #stats, #login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(12, 177, 218);
+    font-weight: 1000;
+    font-size: 17px;
+    margin-left: 15px;
+    margin-right: 12px;
+}
+#docs, #commands, #stats{
+    display: flex;
+    background-color: rgba(70, 69, 69, 0);
+    text-decoration: none;
+    margin-left: 20px;
+    border: 1px solid rgba(70, 69, 69, 0);
+    border-radius: 30px;
+    width: auto;
+    height: 40px;
+    align-items: center;
+    transition: 0.3s;
+}
+#docs:hover, #commands:hover, #stats:hover, #login:hover{
+    background-color: rgba(12, 177, 218, 0.21);
+}
+#login{
+    margin: 0 100px 0 auto;
+    display: flex;
+    background-color: rgba(70, 69, 69, 0);
+    text-decoration: none;
+    border: 1px solid rgba(70, 69, 69, 0);
+    border-radius: 30px;
+    width: auto;
+    height: 40px;
+    align-items: center;
+    transition: 0.3s;
+}
+.left_panel_img{
+    height: 20px;
+    width: 22px;
+    margin-right: 5px;
+}
+.right_panel_img{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
