@@ -11,16 +11,17 @@ function main_page(){
         <div className="main_page">
             <div className='main'>
                 <div className="header">
-                    <h1 id="main_title">T5-BOT</h1>
-                    <div id="line1"></div>
-                    <p>Прогрессивное решение для твоего Discord-сервера!</p>
-                </div>
-
-                <div className="auth">
-                    <div className="auth_buttons">
-                        <button id="add_to_server"><img id="ds_logo" src={discord_logo}></img><p>ДОБАВИТЬ В DISCORD</p></button>
-                        <a id="main_info" href="#description"><div><p>ПОДРОБНЕЕ...</p></div></a>
+                    <div className='header_cont'>
+                        <h1 id="main_title">T5BOT</h1>
+                        <div id="line1"></div>
+                        <p>Прогрессивное решение для твоего Discord-сервера!</p>
+                        <div className="auth">
+                        <div className="auth_buttons">
+                            <button id="add_to_server"><img id="ds_logo" src={discord_logo}></img><p>ДОБАВИТЬ В DISCORD</p></button>
+                            <a id="main_info" href="#description"><div><p>ПОДРОБНЕЕ...</p></div></a>
+                        </div>
                     </div>
+                </div>
                 </div>
 
                 <div id="description">
