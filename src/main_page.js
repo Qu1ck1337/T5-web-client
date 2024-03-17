@@ -21,7 +21,6 @@ function main_page(){
                         <button id="add_to_server"><img id="ds_logo" src={discord_logo}></img><p>ДОБАВИТЬ В DISCORD</p></button>
                         <a id="main_info" href="#description"><div><p>ПОДРОБНЕЕ...</p></div></a>
                     </div>
-                    {/* <div id="line2"></div> */}
                 </div>
 
                 <div id="description">
