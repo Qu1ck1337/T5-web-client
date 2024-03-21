@@ -80,7 +80,6 @@
     font-weight: 1000;
     font-size: 18px;
     transition: 0.3s;
-    position: relative;
 }
 #add_to_server:hover {
     background-color: rgb(6, 82, 159);
@@ -100,6 +99,9 @@
     border-radius: 90px;
     font-weight: 1000;
     transition: 0.3s;
+}
+#main_info:hover{
+    background-color: azure;
 }
 
 #ds_logo {

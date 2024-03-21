@@ -1,4 +1,5 @@
-import { Fragment } from 'react'; 
+import { Fragment } from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import ScrollButton from './components/ScrollButton'; 
 import './App.css';
 import MainPage from './main_page.js'
@@ -8,8 +9,8 @@ import Footer from './footer.js'
 function App() {
   return (
     <Fragment>
-      <Panel />
       <MainPage />
+      <Panel />
       <Footer />
       <ScrollButton />
     </Fragment>

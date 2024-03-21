@@ -5,6 +5,7 @@ import verification_png from './images/verification.png'
 import economy_png from './images/economy.png'
 import options_png from './images/options.png'
 import media_png from './images/media.png'
+import { Fragment } from 'react'
 
 function main_page(){
     return(
