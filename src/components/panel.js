@@ -1,8 +1,8 @@
 import './panel.css'
-import docs_png from './images/docs.png';
-import commands_png from './images/commands.png';
-import stats_png from './images/stats.png';
-import login_png from './images/login.png';
+import docs_png from './assets/images/docs.png';
+import commands_png from './assets/images/commands.png';
+import stats_png from './assets/images/stats.png';
+import login_png from './assets/images/login.png';
 function panel(){
     return(
         <div className='panel'>
