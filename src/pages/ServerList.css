@@ -1,0 +1,30 @@
+.serv_list{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 52, 52);
+    margin: 15px 40px;
+    box-shadow: 0 0 12px 10px rgba(20, 20, 20, 0.85);
+    border: 1px solid rgb(53, 52, 52);
+    border-radius: 12px;
+}
+#serv1, #serv2, #serv3{
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    background-color: rgb(40, 61, 67);
+    border: 1px solid rgb(40, 61, 67);
+    border-radius: 50px;
+    margin-right: 20px;
+    font-weight: 1000;
+    font-size: 18px;
+    transition: 0.3s;
+}
+#ds_logo {
+    height: 18px;
+    width: 22px;
+    margin-right: 5px;
+}

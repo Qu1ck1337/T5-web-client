@@ -1,4 +1,4 @@
-import './main_page.css'
+import './pages/main_page.css'
 import discord_logo from './images/discord_logo.png'
 import moderation_png from './images/moderation.png'
 import verification_png from './images/verification.png'
