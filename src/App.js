@@ -1,10 +1,10 @@
 import { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import ScrollButton from './components/ScrollButton'; 
+import ScrollButton from './components/ScrollButton.js'; 
 import './App.css';
-import MainPage from './pages/main_page.js'
-import Panel from './components/panel.js'
-import Footer from './components/footer.js'
+import MainPage from './main_page.js'
+import Panel from './panel.js'
+import Footer from './footer.js'
 
 function App() {
   return (
