@@ -9,17 +9,10 @@ import ServerList from './ServerList.js';
 
 function App() {
   return (
-    // <Fragment>
-    //   <MainPage/>
-    //   <Panel/>
-    //   <Footer/>
-    //   <ScrollButton/>
-    // </Fragment>
     <Router>
       <Routes>
-      <Route path="/" exact Component={(props) => (<> <Panel />, <MainPage />, <Footer />, <ScrollButton/> </> )}/>
-
-        <Route exact path='/serverlist' Component={(props) => (<> <Panel />, <ServerList />, <Footer />, <ScrollButton/> </> )} />
+        <Route path="/" exact Component={(props) => (<><Panel />,<MainPage />,<Footer />,<ScrollButton/></>)}/>
+        <Route exact path='/serverlist' Component={(props) => (<><Panel />,<ServerList />,<Footer />,<ScrollButton/></>)} />
       </Routes> 
     </Router>
   );

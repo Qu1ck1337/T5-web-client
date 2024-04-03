@@ -7,9 +7,6 @@
     display: flex;
     align-items: center;
     background-color: rgb(70, 69, 69);
-    /* border-top: 1px solid rgb(70, 69, 69); */
-    /* border-top-left-radius: 12px;
-    border-top-right-radius: 12px; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
@@ -24,6 +21,7 @@
     font-size: 17px;
     margin-left: 15px;
     margin-right: 12px;
+    cursor: pointer;
 }
 #docs, #commands, #stats{
     display: flex;
@@ -61,4 +59,11 @@
     height: 20px;
     width: 20px;
     margin-right: 5px;
+}
+#panel_home{
+    margin-left: 30px;
+}
+
+#panel_logo{
+    height: 60px;
 }

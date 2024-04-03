@@ -1,5 +1,6 @@
 .serv_list{
-    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
     justify-content: center;
     align-items: center;
     height: 80vh;
@@ -9,27 +10,51 @@
     border: 1px solid rgb(53, 52, 52);
     border-radius: 12px;
 }
+#serv_list_title{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+
+}
+
+.serv_list_btns{
+    display: flex;
+    justify-content: center;
+}
+
 #serv1, #serv2, #serv3{
+    display: block;
     justify-content: center;
     text-align: center;
     width: 300px;
-    height: 80px;
+    height: auto;
     align-items: center;
     margin-top: 35px;
-    display: flex;
-    background-color: rgb(12, 177, 218);
-    border: 1px solid rgb(12, 177, 218);
+    background-color: rgb(13, 133, 163);
+    border: 1px solid rgb(13, 133, 163);
     border-radius: 50px;
     margin-right: 20px;
+    margin-bottom: 0;
     font-weight: 1000;
     font-size: 18px;
     transition: 0.3s;
+    box-shadow: 0 4px 2px -1px rgba(148, 207, 222, 0.85);
+    cursor: pointer;
 }
-#serv3{
-    margin-bottom: 35px;
+.serv_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
 }
+
 #ds_logo {
     height: 18px;
     width: 22px;
     margin-right: 5px;
+}
+
+.serv_online{
+    font-size: 13px;
+    color: rgb(253, 253, 253)
 }

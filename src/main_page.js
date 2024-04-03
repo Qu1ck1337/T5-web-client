@@ -8,9 +8,6 @@ import verification_png from './images/verification.png'
 import economy_png from './images/economy.png'
 import options_png from './images/options.png'
 import media_png from './images/media.png'
-import ServerList from './ServerList.js'
-import Panel from './panel.js'
-import Footer from './footer.js'
 
 function main_page(){
     return(
@@ -85,7 +82,6 @@ function main_page(){
                     </div>
                 </div>
             </div>
-            
         </>
     )
 }
