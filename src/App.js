@@ -6,6 +6,7 @@ import MainPage from './main_page.js'
 import Panel from './panel.js'
 import Footer from './footer.js'
 import ServerList from './ServerList.js';
+import Documentation from './Documentation.js';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" exact Component={(props) => (<><Panel />,<MainPage />,<Footer />,<ScrollButton/></>)}/>
         <Route exact path='/serverlist' Component={(props) => (<><Panel />,<ServerList />,<Footer />,<ScrollButton/></>)} />
+        <Route exact path='/documentation' Component={(props) => (<><Panel />,<Documentation />,<Footer />,<ScrollButton/></>)} />
       </Routes> 
     </Router>
   );

@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Switch, Route, Link, Routes} from 'react-router-dom';
 import React, {Component} from 'react';
 import './main_page.css'
 import t5_logo from './images/t5logo2.png'

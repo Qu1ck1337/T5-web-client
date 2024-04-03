@@ -4,6 +4,9 @@
     justify-content: center;
     align-items: center;
     height: 80vh;
+    background-image: url(./images/background_img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-color: rgb(53, 52, 52);
     margin: 15px 40px;
     box-shadow: 0 0 12px 10px rgba(20, 20, 20, 0.85);
@@ -13,8 +16,22 @@
 #serv_list_title{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 3vh;
-
+}
+#search_bar{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 300px;
+    margin-left: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 50px;
+    color: black;
+}
+#search_bar_title{
+    
 }
 
 .serv_list_btns{
@@ -23,38 +40,48 @@
 }
 
 #serv1, #serv2, #serv3{
-    display: block;
-    justify-content: center;
+    display: flex;
+    justify-content: left;
     text-align: center;
-    width: 300px;
+    width: 350px;
     height: auto;
     align-items: center;
     margin-top: 35px;
-    background-color: rgb(13, 133, 163);
-    border: 1px solid rgb(13, 133, 163);
+    background-color: rgb(12, 177, 218);
+    border: 1px solid rgb(12, 177, 218);
     border-radius: 50px;
     margin-right: 20px;
     margin-bottom: 0;
     font-weight: 1000;
     font-size: 18px;
     transition: 0.3s;
-    box-shadow: 0 4px 2px -1px rgba(148, 207, 222, 0.85);
+    box-shadow: 0 4px 2px -1px rgba(255, 255, 255, 0.85);
     cursor: pointer;
 }
 .serv_info{
-    display: flex;
+    display: block  ;
     justify-content: center;
     align-items: center;
     height: auto;
+    margin-right: 30px;
 }
 
-#ds_logo {
-    height: 18px;
-    width: 22px;
-    margin-right: 5px;
+.serv_img {
+    height: 60px;
+    width: 77px;
+    margin-right: 20px;
+    margin-left: 30px;
 }
 
 .serv_online{
-    font-size: 13px;
-    color: rgb(253, 253, 253)
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: black;
+}
+
+#serv_online_png{
+    height: 20px;
+    margin-right: 5px;
 }

@@ -10,6 +10,12 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
+
+#docs_link{
+    text-decoration: none;
+    color: rgb(12, 177, 218);
+}
+
 #docs, #commands, #stats, #login {
     display: flex;
     justify-content: center;
