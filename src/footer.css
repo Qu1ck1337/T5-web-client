@@ -4,9 +4,8 @@
     height: auto;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(70, 69, 69);
     margin-bottom: 0;
-    box-shadow: 0 0 12px 10px rgba(20, 20, 20, 0.85);
 }
 #footer_line{
     background-color: rgb(9, 83, 101);

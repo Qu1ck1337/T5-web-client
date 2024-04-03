@@ -32,10 +32,18 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#t5_logo{
+    height: 200px;
+}
+
+
 #main_title{
-    font-size: 70px;
+    font-size: 55px;
     font-weight: 1000;
     margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #line1{
@@ -77,9 +85,11 @@
     border: 1px solid rgb(12, 177, 218);
     border-radius: 50px;
     margin-right: 20px;
-    font-weight: 1000;
-    font-size: 18px;
+    font-weight: bolder;
+    font-size: 22px;
     transition: 0.3s;
+    text-decoration: none;
+    color: black;
 }
 #add_to_server:hover {
     background-color: rgb(6, 82, 159);
