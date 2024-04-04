@@ -1,5 +1,5 @@
-import discord_logo from './images/discord_logo.png'
-import serv_online_png from './images/serv_online.png'
+import discord_logo from '../assets/images/discord_logo.png'
+import serv_online_png from '../assets/images/serv_online.png'
 import './ServerList.css'
 import React, {Component} from 'react';
 export default class ServerList extends Component{

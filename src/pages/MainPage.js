@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import './main_page.css'
-import t5_logo from './images/t5logo2.png'
-import discord_logo from './images/discord_logo.png'
-import moderation_png from './images/moderation.png'
-import verification_png from './images/verification.png'
-import economy_png from './images/economy.png'
-import options_png from './images/options.png'
-import media_png from './images/media.png'
+import './MainPage.css'
+import t5_logo from '../assets/images/t5logo2.png'
+import discord_logo from '../assets/images/discord_logo.png'
+import moderation_png from '../assets/images/moderation.png'
+import verification_png from '../assets/images/verification.png'
+import economy_png from '../assets/images/economy.png'
+import options_png from '../assets/images/options.png'
+import media_png from '../assets/images/media.png'
 
 function main_page(){
     return(

@@ -4,7 +4,9 @@ export default class Documentation extends Component{
     render(){
         return(
             <div className='documentation'>
-                <p>docs</p>
+                <div className='docs_desc'>
+                    <h1>Documentation is coming soon...</h1>
+                </div>
             </div>
         )
     }
