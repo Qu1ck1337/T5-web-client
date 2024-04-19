@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ScrollButton from './components/ScrollButton.js'; 
 import './App.css';
 import MainPage from './pages/MainPage.js'
@@ -11,17 +11,20 @@ import Statistics from './pages/Statistics.js'
 import Login from './pages/Login.js'
 
 function App() {
+  
   return (
+    <><Panel />
     <Router>
       <Routes>
-        <Route path="/" exact Component={(props) => (<><Panel />,<MainPage />,<Footer />,<ScrollButton/></>)}/>
-        <Route exact path='/serverlist' Component={(props) => (<><Panel />,<ServerList />,<Footer />,<ScrollButton/></>)} />
-        <Route exact path='/documentation' Component={(props) => (<><Panel />,<Documentation />,<Footer />,<ScrollButton/></>)} />
-        <Route exact path='/commands' Component={(props) => (<><Panel />,<Commands />,<Footer />,<ScrollButton/></>)} />
-        <Route exact path='/statistics' Component={(props) => (<><Panel />,<Statistics />,<Footer />,<ScrollButton/></>)} />
-        <Route exact path='/login' Component={(props) => (<><Panel />,<Login />,<Footer />,<ScrollButton/></>)} />
+        <Route path="/" exact Component={(props) => (<><MainPage /></>)}/>
+        <Route exact path='/serverlist' Component={(props) => (<><ServerList /></>)} />
+        <Route exact path='/documentation' Component={(props) => (<><Documentation /></>)} />
+        <Route exact path='/commands' Component={(props) => (<><Commands /></>)} />
+        <Route exact path='/statistics' Component={(props) => (<><Statistics /></>)} />
+        <Route exact path='/login' Component={(props) => (<><Login /></>)} />
       </Routes> 
     </Router>
+    <Footer /> <ScrollButton/></>
   );
 }
 export default App;
