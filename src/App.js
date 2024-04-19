@@ -22,10 +22,10 @@ function App() {
         <Route exact path='/documentation' Component={(props) => (<><Documentation /></>)} />
         <Route exact path='/commands' Component={(props) => (<><Commands /></>)} />
         <Route exact path='/statistics' Component={(props) => (<><Statistics /></>)} />
-        <Route exact path='/login' Component={(props) => (<><Login /></>)} />
+        {/*<Route exact path='/login' Component={(props) => (<><Login /></>)} />*/}
         <Route exact path='/server_manager' Component={(props) => (<><ServerManager /></>)} />
         {/* <Route exact path='/server_manager/moderation' Component={(props) => (<><ServerManager /></>)} /> */}
-      </Routes> 
+      </Routes>
     </Router>
     <Footer /> <ScrollButton/></>
   );
