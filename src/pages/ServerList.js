@@ -6,42 +6,44 @@ export default class ServerList extends Component{
     render(){
         return(
             <div className='serv_list'>
-                <div id='serv_list_title'>
-                    <h1>Ваши сервера Discord</h1>
-                </div>
-                <div className='serv_list_btns'>
-                    <a id="serv1" href='/server_manager'>
-                        <img className='serv_img' src={discord_logo}></img>
-                        <div className='serv_info'>
-                            <p>T5-DEV</p>   
-                            <div className='serv_online'>
-                                <img id='serv_online_png' src={serv_online_png}></img>
-                                <p>в сети:</p>
+                <div className='servlist'>
+                    <div id='serv_list_title'>
+                        <h1>Ваши сервера Discord</h1>
+                    </div>
+                    <div className='serv_list_btns'>
+                        <a id="serv1" href='/server_manager'>
+                            <img className='serv_img' src={discord_logo}></img>
+                            <div className='serv_info'>
+                                <p>T5-DEV</p>   
+                                <div className='serv_online'>
+                                    <img id='serv_online_png' src={serv_online_png}></img>
+                                    <p>в сети:</p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
 
-                    <button id="serv1">
-                        <img className='serv_img' src={discord_logo}></img>
-                        <div className='serv_info'>
-                            <p>T5-COMMUNITY</p>   
-                            <div className='serv_online'>
-                                <img id='serv_online_png' src={serv_online_png}></img>
-                                <p>в сети:</p>
+                        <button id="serv1">
+                            <img className='serv_img' src={discord_logo}></img>
+                            <div className='serv_info'>
+                                <p>T5-COMMUNITY</p>   
+                                <div className='serv_online'>
+                                    <img id='serv_online_png' src={serv_online_png}></img>
+                                    <p>в сети:</p>
+                                </div>
                             </div>
-                        </div>
-                    </button>
+                        </button>
 
-                    <button id="serv1">
-                        <img className='serv_img' src={discord_logo}></img>
-                        <div className='serv_info'>
-                            <p>T5-FUN</p>   
-                            <div className='serv_online'>
-                                <img id='serv_online_png' src={serv_online_png}></img>
-                                <p>в сети:</p>
+                        <button id="serv1">
+                            <img className='serv_img' src={discord_logo}></img>
+                            <div className='serv_info'>
+                                <p>T5-FUN</p>   
+                                <div className='serv_online'>
+                                    <img id='serv_online_png' src={serv_online_png}></img>
+                                    <p>в сети:</p>
+                                </div>
                             </div>
-                        </div>
-                    </button>
+                        </button>
+                    </div>
                 </div>
             </div>
         )

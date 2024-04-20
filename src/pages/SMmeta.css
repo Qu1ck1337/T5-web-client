@@ -3,7 +3,7 @@
     display: block;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 28vh;
     background-size: 100% 100%;
     background-color: rgb(53, 52, 52);
     margin: 15px 40px;
@@ -16,6 +16,9 @@
     height: 25vh;
     background-color: black;
     display: table;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 #servername{
     margin-top: 5vh;

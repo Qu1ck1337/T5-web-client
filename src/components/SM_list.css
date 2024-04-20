@@ -4,6 +4,9 @@
     top: 0;
     height: 50px;
     background-color: black;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 #sml_main,#sml_moder,#sml_audit,#sml_comms,#sml_msg,#sml_rating{
     display: flex;

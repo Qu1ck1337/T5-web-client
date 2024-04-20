@@ -8,7 +8,6 @@ import ServerList from './pages/ServerList.js';
 import Documentation from './pages/Documentation.js';
 import Commands from './pages/Commands.js'
 import Statistics from './pages/Statistics.js'
-import Login from './pages/Login.js'
 import ServerManager from './pages/ServerManager.js'
 
 function App() {
@@ -22,9 +21,13 @@ function App() {
         <Route exact path='/documentation' Component={(props) => (<><Documentation /></>)} />
         <Route exact path='/commands' Component={(props) => (<><Commands /></>)} />
         <Route exact path='/statistics' Component={(props) => (<><Statistics /></>)} />
-        {/*<Route exact path='/login' Component={(props) => (<><Login /></>)} />*/}
         <Route exact path='/server_manager' Component={(props) => (<><ServerManager /></>)} />
-        {/* <Route exact path='/server_manager/moderation' Component={(props) => (<><ServerManager /></>)} /> */}
+        <Route path="/server_manager/SMMain" exact Component={(props) => (<><ServerManager /></>)}/>
+        <Route path="/server_manager/SMModer" exact Component={(props) => (<><ServerManager /></>)}/>
+        <Route path="/server_manager/SMAudit" exact Component={(props) => (<><ServerManager /></>)}/>
+        <Route path="/server_manager/SMComms" exact Component={(props) => (<><ServerManager /></>)}/>
+        <Route path="/server_manager/SMMsg" exact Component={(props) => (<><ServerManager /></>)}/>
+        <Route path="server_manager/SMRating" exact Component={(props) => (<><ServerManager /></>)}/>
       </Routes>
     </Router>
     <Footer /> <ScrollButton/></>
