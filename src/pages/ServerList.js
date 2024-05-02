@@ -22,7 +22,7 @@ export default class ServerList extends Component {
               </div>
             </a>
 
-            <button id="serv1">
+            <a id="serv2" href="/server_manager">
               <img className="serv_img" src={discord_logo} alt=""></img>
               <div className="serv_info">
                 <p>T5-COMMUNITY</p>
@@ -31,9 +31,9 @@ export default class ServerList extends Component {
                   <p>в сети:</p>
                 </div>
               </div>
-            </button>
+            </a>
 
-            <button id="serv1">
+            <a id="serv3" href="/server_manager">
               <img className="serv_img" src={discord_logo} alt=""></img>
               <div className="serv_info">
                 <p>T5-FUN</p>
@@ -42,7 +42,7 @@ export default class ServerList extends Component {
                   <p>в сети:</p>
                 </div>
               </div>
-            </button>
+            </a>
           </div>
         </div>
       </div>
