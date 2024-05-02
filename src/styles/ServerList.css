@@ -1,0 +1,103 @@
+.serv_list {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../assets/images/background_img.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: rgb(53, 52, 52);
+  margin: 15px 40px;
+  box-shadow: 0 0 12px 10px rgba(20, 20, 20, 0.85);
+  border: 1px solid rgb(53, 52, 52);
+  border-radius: 12px;
+}
+/* .servlist{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(70, 69, 69, 0.65);
+    margin: 15px 40px;
+    box-shadow: 0 0 12px 10px rgba(20, 20, 20, 0.85);
+    border: 1px solid rgb(53, 52, 52);
+    border-radius: 12px;
+} */
+#serv_list_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+#search_bar {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 300px;
+  margin-left: 2rem;
+  border: 1px solid lightgrey;
+  border-radius: 50px;
+  color: black;
+}
+
+.serv_list_btns {
+  display: flex;
+  justify-content: center;
+}
+
+#serv1,
+#serv2,
+#serv3 {
+  font-family: "Trebuchet MS";
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  align-items: center;
+  margin-top: 35px;
+  background-color: rgb(12, 177, 218);
+  border: 1px solid rgb(12, 177, 218);
+  border-radius: 25px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  font-weight: 1000;
+  font-size: 18px;
+  transition: 0.3s;
+  box-shadow: 0 4px 2px -1px rgba(255, 255, 255, 0.85);
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.serv_info {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-right: 30px;
+}
+
+.serv_img {
+  height: 60px;
+  width: 77px;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+.serv_online {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: black;
+}
+
+#serv_online_png {
+  height: 20px;
+  margin-right: 5px;
+}
