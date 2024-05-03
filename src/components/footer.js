@@ -7,6 +7,12 @@ function footer() {
           <p>- ССЫЛКИ -</p>
           <a href="https://github.com/Qu1ck1337/T5-frontend">* GIT-Hub</a>
         </div>
+        <div id="info">
+          <p>- ИНФОРМАЦИЯ -</p>
+        </div>
+        <div id="etc">
+          <p>- ПРОЧЕЕ -</p>
+        </div>
       </div>
       <div id="footer_line"></div>
       <div id="footer_author">
