@@ -1,6 +1,6 @@
 import configparser
 
-import psycopg2 as psycopg2
+import psycopg2
 import requests
 import uvicorn
 from fastapi import FastAPI, Request, Body
@@ -26,9 +26,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-conn = psycopg2.connect(dbname=config['db']["dbname"], user=config['db']["user"],
-                        password=config['db']["password"], host=config['db']["host"])
-cursor = conn.cursor()
+# conn = psycopg2.connect(dbname=config['db']["dbname"], user=config['db']["user"],
+#                         password=config['db']["password"], host=config['db']["host"])
+# cursor = conn.cursor()
 
 
 @app.post("/login")
@@ -63,7 +63,7 @@ async def get_user_owned_guilds(body=Body()):
     }
     guilds = requests.get('https://discord.com/api/v6/users/@me/guilds', headers=headers).json()
 
-    cursor.execute(f'SELECT guilds.id FROM guilds WHERE owner_id={body["user_id"]}')
+    # cursor.execute(f'SELECT guilds.id FROM guilds WHERE owner_id={body["user_id"]}')
     users_guilds_exists = list(map(lambda x: x[0], cursor.fetchall()))
 
     print(users_guilds_exists)
