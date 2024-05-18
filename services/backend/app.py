@@ -52,6 +52,8 @@ async def login(body=Body()):
         "authorization": f'{oauthData["token_type"]} {oauthData["access_token"]}'
     }
     userResult = requests.get('https://discord.com/api/users/@me', headers=headers).json()
+    userResult["token_type"] = oauthData["token_type"]
+    userResult["access_token"] = oauthData["access_token"]
 
     return userResult
 
@@ -65,8 +67,6 @@ async def get_user_owned_guilds(body=Body()):
 
     cursor.execute(f'SELECT guilds.id FROM guilds WHERE owner_id={body["user_id"]}')
     users_guilds_exists = list(map(lambda x: x[0], cursor.fetchall()))
-
-    print(users_guilds_exists)
 
     owned_guilds = []
     for guild in guilds:
