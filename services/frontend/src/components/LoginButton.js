@@ -17,6 +17,9 @@ function LoginButton(){
                     response = response.data;
                     setAvatar(`https://cdn.discordapp.com/avatars/${response["id"]}/${response["avatar"]}`);
                     setLinkHref(`/serverlist`)
+                    localStorage.setItem(`access_token`, response['access_token'])
+                    localStorage.setItem(`token_type`, response["token_type"])
+                    localStorage.setItem(`user_id`, response["id"])
                     document.querySelector(".login_link").innerText = response["username"];
                 })
                 .catch(function (error) {
@@ -27,7 +30,7 @@ function LoginButton(){
 
     return (
         <button id="login">
-            <img src={avatar} className='right_panel_img'></img>
+            <img src={avatar} alt="" className='right_panel_img'></img>
             <a id='panel_link' className="login_link" href={linkHref}>ВОЙТИ</a>
         </button>
     )

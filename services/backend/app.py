@@ -54,9 +54,8 @@ async def login(body=Body()):
     userResult = requests.get('https://discord.com/api/users/@me', headers=headers).json()
     userResult["token_type"] = oauthData["token_type"]
     userResult["access_token"] = oauthData["access_token"]
-
+    print(userResult)
     return userResult
-
 
 @app.post("/get_user_owned_guilds")
 async def get_user_owned_guilds(body=Body()):
