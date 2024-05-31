@@ -37,11 +37,13 @@
 .serv_list_btns {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #serv1,
 #serv2,
 #serv3 {
+  background-color: rgba(81, 81, 81, 0.503);
   font-family: "Trebuchet MS";
   display: flex;
   justify-content: center;
@@ -59,7 +61,6 @@
   margin-bottom: 0;
   font-weight: 1000;
   font-size: 18px;
-  transition: 0.3s;
   box-shadow: 0 3px 8px 0px rgba(2, 157, 223, 0.85);
   cursor: pointer;
   text-decoration: none;
