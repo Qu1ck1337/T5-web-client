@@ -8,7 +8,7 @@ CLIENT_SECRET = <id-secret-application>
 REDIRECT_URI = http://localhost:3000/
 
 [db]
-dbname = <bd-name>
+dbname = <db-name>
 user = <login>
 password = <password>
 host = localhost
