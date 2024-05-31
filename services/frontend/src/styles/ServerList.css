@@ -1,0 +1,94 @@
+.serv_list {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../assets/images/background_img.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: rgb(53, 52, 52);
+  margin: 15px 40px;
+  box-shadow: 0 0 12px 10px rgba(20, 20, 20, 0.85);
+  border: 1px solid rgb(53, 52, 52);
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+}
+.servlist{
+  background-color: rgba(70, 69, 69, 0.8);
+  width: auto;
+  height: 97vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(70, 69, 69, 0.8);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+#serv_list_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+  padding-top: 5vh;
+}
+
+.serv_list_btns {
+  display: flex;
+  justify-content: center;
+}
+
+#serv1,
+#serv2,
+#serv3 {
+  font-family: "Trebuchet MS";
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 330px;
+  height: auto;
+  align-items: center;
+  margin-top: 35px;
+  background-image: url(../assets/images/servlist_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 1px solid rgba(53, 53, 53, 0);
+  border-radius: 25px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  font-weight: 1000;
+  font-size: 18px;
+  transition: 0.3s;
+  box-shadow: 0 3px 8px 0px rgba(2, 157, 223, 0.85);
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.serv_info {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-right: 30px;
+}
+
+.serv_img {
+  height: 60px;
+  width: 77px;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+.serv_online {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+#serv_online_png {
+  height: 20px;
+  margin-right: 5px;
+}

@@ -1,0 +1,22 @@
+.commands {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../assets/images/background_img.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: rgb(53, 52, 52);
+  margin: 15px 40px;
+  box-shadow: 0 0 12px 10px rgba(20, 20, 20, 0.85);
+  border: 1px solid rgb(53, 52, 52);
+  border-radius: 12px;
+}
+.comms_desc {
+  display: flex;
+  background-color: rgba(70, 69, 69, 0.8);
+  border: 1px solid rgba(70, 69, 69, 0.8);
+  border-radius: 12px;
+}
