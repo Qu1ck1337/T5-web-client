@@ -1,5 +1,5 @@
-# Чтобы запустить Бэкенд:
-Создаём файл `application.ini` в корневой папке проекта с такими данными:
+# Before run:
+Create a new file `application.ini` in the root of the project:
 
 ```ini
 [auth]
@@ -8,8 +8,8 @@ CLIENT_SECRET = <id-secret-application>
 REDIRECT_URI = http://localhost:3000/
 
 [db]
-dbname = <название-БД>
-user = <логин>
-password = <пароль>
+dbname = <bd-name>
+user = <login>
+password = <password>
 host = localhost
 ```
