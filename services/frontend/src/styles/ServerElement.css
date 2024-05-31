@@ -1,0 +1,15 @@
+.serv_img{
+    width: 64px;
+    height: 64px;
+    border: 2px solid rgb(12, 177, 218);
+    border-radius: 50%;
+}
+.bot_add_btn{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 113, 205);
+    border: 1px solid rgb(1, 113, 205);
+    border-radius: 3px;
+    padding: 3px;
+    margin-bottom: 3px;
+}
