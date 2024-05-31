@@ -72,6 +72,7 @@ async def get_user_owned_guilds(body=Body()):
         if guild["owner"]:
             guild["bot_in"] = int(guild["id"]) in users_guilds_exists
             owned_guilds.append(guild)
+    print(owned_guilds)
     return owned_guilds
 
 

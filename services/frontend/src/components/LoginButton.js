@@ -7,6 +7,7 @@ function LoginButton(){
     const [linkHref, setLinkHref] = useState('https://discord.com/oauth2/authorize?client_id=1225730012473196595&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2F&scope=identify+guilds')
 
     window.onload = () => {
+
         const code = (new URL(window.location)).searchParams.get('code')
 
         if (code) {
@@ -29,10 +30,14 @@ function LoginButton(){
     };
 
     return (
-        <button id="login">
-            <img src={avatar} alt="" className='right_panel_img'></img>
-            <a id='panel_link' className="login_link" href={linkHref}>ВОЙТИ</a>
-        </button>
+        <>
+            {
+                window.location.pathname === "/serverlist" ? <></> : (<button id="login">
+                    <img src={avatar} alt="" className='right_panel_img'></img>
+                    <a id='panel_link' className="login_link" href={linkHref}>ВОЙТИ</a>
+                </button>)
+            }
+        </>
     )
 }
 
